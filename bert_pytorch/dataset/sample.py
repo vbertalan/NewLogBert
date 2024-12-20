@@ -88,7 +88,7 @@ def generate_train_valid(data_path, window_size=20, adaptive_window=True,
         time_seq_pairs += times
 
     logkey_seq_pairs = np.array(logkey_seq_pairs, dtype="object")
-    time_seq_pairs = np.array(time_seq_pairs)
+    time_seq_pairs = np.array(time_seq_pairs, dtype="object")
 
     logkey_trainset, logkey_validset, time_trainset, time_validset = train_test_split(logkey_seq_pairs,
                                                                                       time_seq_pairs,
