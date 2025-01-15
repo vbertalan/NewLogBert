@@ -1,9 +1,1 @@
-output/hdfs/test_normal
-output/hdfs/test_abnormal
-output/hdfs/hdfs_sequence.csv
-output/hdfs/HDFS.log_structured.csv
-output/hdfs/HDFS.log_templates.csv
-output/hdfs/hdfs_log_templates.json
-output/hdfs/train
-output/hdfs/vocab.pkl
-output/hdfs/bert/parameters.txt
+output/

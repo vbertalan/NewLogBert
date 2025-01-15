@@ -117,9 +117,9 @@ class Predictor():
                 log_seqs += log_seq
                 tim_seqs += tim_seq
 
-        # sort seq_pairs by seq len
-        log_seqs = np.array(log_seqs)
-        tim_seqs = np.array(tim_seqs)
+        # sort seq_pairs by seq len (altering per dtype = object)
+        log_seqs = np.array(log_seqs, dtype=object)
+        tim_seqs = np.array(tim_seqs, dtype=object)
 
         test_len = list(map(len, log_seqs))
         test_sort_index = np.argsort(-1 * np.array(test_len))
