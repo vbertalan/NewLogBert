@@ -110,8 +110,7 @@ if __name__ == "__main__":
         vocab = WordVocab(logs)
         print("vocab_size", len(vocab))
         vocab.save_vocab(options["vocab_path"])
-
-
-
-
-
+        
+    #elif args.mode == 'causal':
+        #model = CausalLogBERT()
+        #return model
