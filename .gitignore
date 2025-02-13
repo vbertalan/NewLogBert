@@ -1,3 +1,8 @@
 output/
 huggingface_token.txt
 tests/openai_token.txt
+tests/Ciena_error_lines_20220701-20220715.txt
+tests/test_llm.ipynb
+tests/results/Ciena_error_lines_20220701-20220715.txt_templates.csv
+tests/results/Ciena_error_lines_20220701-20220715.txt_structured.csv
+tests/logs/Ciena_error_lines_20220701-20220715.txt
