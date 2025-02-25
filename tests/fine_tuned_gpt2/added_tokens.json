@@ -1,0 +1,7 @@
+{
+  "Error encountered in": 50258,
+  "Error encountered in module X": 50257,
+  "Segmentation fault in memory allocation": 50261,
+  "System rebooted successfully": 50260,
+  "Unexpected behavior in network communication": 50259
+}

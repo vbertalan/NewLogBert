@@ -6,3 +6,4 @@ tests/test_llm.ipynb
 tests/results/Ciena_error_lines_20220701-20220715.txt_templates.csv
 tests/results/Ciena_error_lines_20220701-20220715.txt_structured.csv
 tests/logs/Ciena_error_lines_20220701-20220715.txt
+tests/fine_tuned_gpt2/model.safetensors
